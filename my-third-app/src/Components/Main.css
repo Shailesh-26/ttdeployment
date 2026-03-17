@@ -1,0 +1,212 @@
+.auth-container {
+  min-height: calc(100vh - 60px); /* minus navbar height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-box {
+  width: 320px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+  background: #fff;
+  text-align: center;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+}
+/* Center container */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+/* Form box */
+.auth-box {
+  background: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.auth-box h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputs */
+.auth-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+.auth-box input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102,126,234,0.5);
+}
+
+/* Buttons */
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.auth-box button:hover {
+  background: #5a67d8;
+}
+
+/* Links */
+.auth-box a {
+  color: #667eea;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.auth-box a:hover {
+  text-decoration: underline;
+}
+
+/* Dashboard */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Table */
+table {
+  width: 80%;
+  margin: 0 auto 50px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+th {
+  background: #667eea;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+  background: #f5f7ff;
+}
+
+/* Action buttons */
+td button {
+  padding: 6px 12px;
+  margin: 2px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+td button:first-child {
+  background: #e53e3e;
+  color: white;
+}
+
+td button:first-child:hover {
+  background: #c53030;
+}
+
+td button:last-child {
+  background: #38a169;
+  color: white;
+}
+
+td button:last-child:hover {
+  background: #2f855a;
+}
+.success-msg {
+  color: #2ecc71;
+  background: #eafaf1;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.error-msg {
+  color: #e74c3c;
+  background: #fdecea;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dashboard-header {
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+.dashboard-header h1 {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.logout-btn {
+  padding: 8px 16px;
+  background: #e53e3e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+ 
+  justify-self: end;
+
+}
+
+.logout-btn:hover {
+  background: #c53030;
+}
+

@@ -1,0 +1,30 @@
+nav {
+  background: #1e1e2f;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00e0ff;
+}
+
+.page {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 32px;
+}
+.page h1 {
+  margin-bottom: 20px;
+}
