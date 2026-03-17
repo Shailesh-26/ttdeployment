@@ -22,7 +22,7 @@ function Register() {
     setError("")
 
     try {
-      const res = await axios.post("http://localhost:8080/register", data)
+      const res = await axios.post("https://ttdeployment-2t9z.onrender.com/register", data)
       setMessage(res.data)   
       setData({ username: "", email: "", password: "" }) 
     } catch (err) {

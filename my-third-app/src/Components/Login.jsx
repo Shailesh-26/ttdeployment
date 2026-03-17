@@ -20,7 +20,7 @@ function Login() {
 
   async function handleLogin() {
     try {
-      const res = await axios.post("http://localhost:8080/login", loginUser);
+      const res = await axios.post("https://ttdeployment-2t9z.onrender.com/login", loginUser);
 
       localStorage.setItem("user", JSON.stringify(res.data.user));
       localStorage.setItem("token", res.data.token);

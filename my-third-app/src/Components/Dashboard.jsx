@@ -29,7 +29,7 @@ function Dashboard() {
         }
 
         axios
-            .get("http://localhost:8080/verify", {
+            .get("https://ttdeployment-2t9z.onrender.com/verify", {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },
@@ -42,7 +42,7 @@ function Dashboard() {
 
     async function getAllUsers() {
         try {
-            const res = await axios.get("http://localhost:8080/allUsers", {
+            const res = await axios.get("https://ttdeployment-2t9z.onrender.com/allUsers", {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },
@@ -56,7 +56,7 @@ function Dashboard() {
     async function deleteUser(id) {
         try {
             if (window.confirm("Are you sure you want to delete this user?")) {
-                await axios.delete(`http://localhost:8080/deleteUser/${id}`, {
+                await axios.delete(`https://ttdeployment-2t9z.onrender.com/deleteUser/${id}`, {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
@@ -79,7 +79,7 @@ function Dashboard() {
         if (newEmail) {
             try {
                 await axios.put(
-                    `http://localhost:8080/updateUser/${id}`,
+                    `https://ttdeployment-2t9z.onrender.com/updateUser/${id}`,
                     { ...oldUser, email: newEmail },
                     {
                         headers: {
